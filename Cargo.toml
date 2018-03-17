@@ -14,8 +14,9 @@ cortex-m = "0.4.0"
 vcell = "0.1.0"
 
 [dependencies.cortex-m-rt]
+features = ["abort-on-panic"]
 optional = true
-version = "0.3.0"
+version = "0.3.12"
 
 [features]
 rt = ["cortex-m-rt"]
